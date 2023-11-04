@@ -11,23 +11,32 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Introduction',
-        items: [
-          { text: 'What is ChromeDevTools', link: '/introduction/what-is-chromedevtools' },
-          { text: 'Getting started', link: 'introduction/getting-started' }
-        ]
-      },
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    sidebar: {
+      "/tutorial/": [
+        {
+          text: 'Introduction',
+          items: [
+            { text: 'What is ChromeDevTools', link: '/tutorial/introduction/what-is-chromedevtools' },
+            { text: 'Getting started', link: '/tutorial/introduction/getting-started' }
+          ]
+        },
+        {
+          text: 'Examples',
+          items: [
+            { text: 'Markdown Examples', link: '/tutorial/markdown-examples' },
+            { text: 'Runtime API Examples', link: '/tutorial/api-examples' }
+          ]
+        }
+      ],
+      "/blog/": [
+        {
+          text: 'Blog',
+          items: [
+            { text: 'Markdown Examples', link: '/blog/markdown-examples' }
+          ]
+        }
+      ]
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
