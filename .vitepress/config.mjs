@@ -41,20 +41,20 @@ export default defineConfig({
     ],
     sitemap: {
       hostname: 'https://chromedevtools.co.uk'
-    },
-    head: [
-      [
-        'script',
-        { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-REG61HPHTJ' }
-      ],
-      [
-        'script',
-        {},
-        `window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-REG61HPHTJ');`
-      ]
+    }
+  },
+  head: [
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-REG61HPHTJ' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-REG61HPHTJ');`
     ]
-  }
+  ]
 })
