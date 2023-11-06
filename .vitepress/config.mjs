@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/chromeDevTool/",
   title: "ChromeDevTools",
   description: "Learn your way to become a ChromeDevTools master with our interactive tutorials, blogs and documentation.",
   themeConfig: {
