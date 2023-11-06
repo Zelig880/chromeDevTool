@@ -1,4 +1,9 @@
-# Introduction
+---
+title: What is ChromeDevTools
+description: If you've ever found yourself lost in the maze of code, desperately trying to unravel the mysteries of your frontend application, fear not! ChromeDevTools is ready to save you!
+---
+
+# What is ChromeDevTools
 
 Hey fellow developers!
 

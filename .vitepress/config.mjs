@@ -17,7 +17,8 @@ export default defineConfig({
           text: 'Introduction',
           items: [
             { text: 'What is ChromeDevTools', link: '/tutorial/introduction/what-is-chromedevtools' },
-            { text: 'Getting started', link: '/tutorial/introduction/getting-started' }
+            { text: 'Getting started', link: '/tutorial/introduction/getting-started' },
+            { text: 'When to use the debugger', link: '/tutorial/introduction/when-to-use-chrome-debugger' }
           ]
         },
         {
