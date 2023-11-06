@@ -5,10 +5,10 @@ export default defineConfig({
   title: "ChromeDevTools",
   description: "Learn your way to become a ChromeDevTools master with our interactive tutorials, blogs and documentation.",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Tutorials', link: '/tutorial/introduction/what-is-chromedevtools' },
+      { text: 'Blog', link: '/blog/the-start-of-a-journey' }
     ],
 
     sidebar: {
@@ -21,10 +21,9 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Examples',
+          text: 'Debugger Structure',
           items: [
-            { text: 'Markdown Examples', link: '/tutorial/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/tutorial/api-examples' }
+            { text: 'coming soon...' }
           ]
         }
       ],
@@ -32,7 +31,7 @@ export default defineConfig({
         {
           text: 'Blog',
           items: [
-            { text: 'Markdown Examples', link: '/blog/markdown-examples' }
+            { text: 'The start of a journey', link: '/blog/the-start-of-a-journey' }
           ]
         }
       ]

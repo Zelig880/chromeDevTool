@@ -9,11 +9,11 @@ hero:
   image: "./images/logo.png"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Getting Started
+      link: /tutorial/introduction/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: About the author
+      link: https://zelig880.com
 
 features:
   - title: Free forever
