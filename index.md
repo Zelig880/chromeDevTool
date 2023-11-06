@@ -16,11 +16,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Free forever
+    details: All information at no cost! Learn how to use the debugger for free
+  - title: Level up your skills
+    details: Progress in your career with advanced debugging techniques
+  - title: Support the community
+    details: Fix typos or suggest new topic in our public repository
 ---
 
