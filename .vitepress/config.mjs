@@ -38,7 +38,7 @@ export default defineConfig({
       ]
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Zelig880/chromeDevTool' }
     ],
     sitemap: {
       hostname: 'https://chromedevtools.co.uk'
