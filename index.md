@@ -6,7 +6,7 @@ hero:
   name: "ChromeDevTools"
   text: "The best way to master your debugging skills."
   tagline: Join our interactive tutorials, detailed blog and documentation to level up your javascript debugging skills.
-  image: "./assets/logo.jpg"
+  image: "./images/logo.png"
   actions:
     - theme: brand
       text: Markdown Examples
