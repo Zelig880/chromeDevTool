@@ -18,7 +18,8 @@ export default defineConfig({
           items: [
             { text: 'What is ChromeDevTools', link: '/tutorial/introduction/what-is-chromedevtools' },
             { text: 'Getting started', link: '/tutorial/introduction/getting-started' },
-            { text: 'When to use the debugger', link: '/tutorial/introduction/when-to-use-chrome-debugger' }
+            { text: 'When to use the debugger', link: '/tutorial/introduction/when-to-use-chrome-debugger' },
+            { text: 'Exploring the navigation bar - Part 1', link: '/tutorial/introduction/exploring-the-debugger-navigation-bar-part-1' }
           ]
         },
         {
