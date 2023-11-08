@@ -1,9 +1,9 @@
 ---
-title: Exploring the debugger navigation bar - Part 1
+title: Chrome Debugger Navigation Bar - The basic
 description: An overview of the navigation bar in the Chrome Debugger, covering the most used tabs - Elements, Console, Sources, and Network.
 ---
 
-# Exploring the debugger navigation bar - Part 1
+# Chrome Debugger Navigation Bar - The basic
 
 The Chrome Debugger offers a powerful set of tools to inspect, debug, and profile your web applications. The navigation bar provides quick access to essential features. In this article, we'll explore the most frequently used tabs: Elements, Console, Sources, and Network.
 
