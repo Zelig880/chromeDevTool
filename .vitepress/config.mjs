@@ -24,6 +24,12 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Basic Commands',
+          items: [
+            { text: 'Select an element within a page', link: '/tutorial/commands/select-an-element-within-the-page' },
+          ]
+        },
+        {
           text: 'Debugger Structure',
           items: [
             { text: 'coming soon...' }
