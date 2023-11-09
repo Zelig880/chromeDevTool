@@ -11,6 +11,10 @@ export default defineConfig({
       { text: 'Blog', link: '/blog/the-start-of-a-journey' }
     ],
 
+    search: {
+      provider: 'local'
+    },
+
     sidebar: {
       "/tutorial/": [
         {
