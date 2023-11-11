@@ -31,6 +31,7 @@ export default defineConfig({
           text: 'Basic Commands',
           items: [
             { text: 'Select an element within a page', link: '/tutorial/commands/select-an-element-within-the-page' },
+            { text: 'Toggle Device Toolbar in Chrome Debugger', link: '/tutorial/commands/toggle-device-toolbar' },
           ]
         },
         {
