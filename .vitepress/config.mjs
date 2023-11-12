@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ChromeDevTools",
   description: "Learn your way to become a ChromeDevTools master with our interactive tutorials, blogs and documentation.",
+  sitemap: {
+    hostname: 'https://chromedevtools.co.uk'
+  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -53,9 +56,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Zelig880/chromeDevTool' }
     ],
-    sitemap: {
-      hostname: 'https://chromedevtools.co.uk'
-    }
   },
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.ico' }],
